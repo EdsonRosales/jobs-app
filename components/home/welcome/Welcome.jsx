@@ -45,7 +45,7 @@ const Welcome = () => {
       </View>
 
       {/* Flatlist to show jobs */}
-      <View style={styles.container}>
+      <View style={styles.tabsContainer}>
         <FlatList
           data={jobTypes}
           renderItem={({ item }) => (
